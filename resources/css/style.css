@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: dimgray;
+    text-align: center;
+}
+#logo {
+    background-image: url(../images/the-flatiron-building.png);
+    opacity: 1;
+    padding-bottom: 100px;
+}
+#company {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+#top-links {
+   color: white; 
+   font-size: 18px;
+   position: absolute;
+   top: 100px;
+   left: 14px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+p {
+    font-size: 14px;
+}
+.title-bar {
+    background-image: url(../images/the-flatiron-building.png);
+    opacity: 1;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+#footer {
+    background-color: dimgray;
+    color: white;
+    text-align: left;
+}
+#copyright {
+    color: hotpink; /* color for highlighing question */
+    position: absolute;
+    bottom: -359px; /* not sure why I have to use negative numbers here */
+    right: 10px;
+    font-size: 11px;
+}
+a {
+    color: white;
+}
+

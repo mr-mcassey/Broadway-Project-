@@ -2,13 +2,20 @@
     <head>
         <meta charset="utf-8">
         <title>Broadway Inc.</title>
-        <link rel="stylesheet" href="/resources/css/style.css">
+        <link rel="stylesheet" href="./resources/css/style.css">
     </head>
-
+    <!--content begins-->
     <body>
     <!--company logo-->
-        <div class="logo">
-            <h1>Broadway Design</h1>
+        <div id="logo">
+            <h1 id="company">Broadway Design</h1>
+            <nav id="top-links">
+                <a href="#">Home</a>
+                <a href="#">Process</a>
+                <a href="#work">Work</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
     <!--process description-->
         <div class="process">
@@ -16,10 +23,10 @@
             <img src="./resources/images/identify.svg" width="64px" height="35px" alt="">
             <h3>Identify</h3>
             <p>We focus on the most important details.</p>
-            <img src="./resources/images/understand.svg" alt="">
+            <img src="./resources/images/understand.svg" width="64px" height="66px" alt="">
             <h3>Understand</h3>
             <p>We study our projects inside and out.</p>
-            <img src="./resources/images/execute.svg" alt="">
+            <img src="./resources/images/execute.svg" width="64px" height="52px" alt="">
             <h3>Execute</h3>
             <p>We put everything we have into our work.</p>
         </div>
@@ -31,22 +38,23 @@
             <p>Coming soon</p>
             <h2>Team</h2>
             <p>We're hiring!</p>   
-            <h2>Contact</h2>
+            <h2 id="contact">Contact</h2>
             <p>
                 Phone: (555)-555-5555 <br>
                 E-mail: test@example.com<br>
-                twiter: @test<br>
+                twitter: @test<br>
             </p>
         </div>
     <!--footer-->
-    <div id="footer">
-        <p>
-            Home
-            About
-            Work
-            Team
-            Contact
-            <span id="copyright">© Broadway 2016</span>
-        </p>
-    </div>
-</body>
+        <div>
+            <p id="footer">
+               <a href="#">Home</a>
+               <a href="#">About</a>
+               <a id="work" href="#">Work</a>
+               <a id="team" href="#">Team</a>
+               <a href="#contact">Contact</a>
+               <span id="copyright">© Broadway 2016</span>
+            </p>
+        </div>
+    </body>
+</html>
