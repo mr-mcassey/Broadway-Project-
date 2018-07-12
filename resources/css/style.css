@@ -43,15 +43,17 @@ p {
     background-color: dimgray;
     color: white;
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 #copyright {
-    color: hotpink; /* color for highlighing question */
+    color: hotpink; /* color for highlighting question */
     position: absolute;
-    bottom: -359px; /* not sure why I have to use negative numbers here */
     right: 10px;
     font-size: 11px;
 }
 a {
     color: white;
+    padding: 0px 5px;
 }
 
